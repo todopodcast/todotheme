@@ -1,0 +1,36 @@
+{{!< default}}
+
+<main id="container" role="main">
+	{{> header}}
+
+	{{> navigation}}
+
+	<section class="post-list">
+		{{#foreach posts}}
+		<article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}}">
+			<header class="post-header">        		
+    			<h2 itemprop="name" class="post-title">
+    				<a href="{{url}}" itemprop="url">{{{title}}}</a>
+    			</h2>
+    			<div class="post-meta">
+        			<time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date published_at format="MMMM DD, YYYY"}}</time>
+        			{{#if tags}}
+    				<span class="delimiter">&#8226;</span> 
+		        	{{#tags}}
+		            <span itemprop="keywords">{{name}}</span>{{#unless @last}}, {{/unless}}
+		          	{{/tags}}			        
+			      	{{/if}}			      	
+        		</div>
+        		<hr>
+    		</header>
+    		<section itemprop="description" class="post-excerpt">
+    			<p>{{content}}&hellip;</p>
+    		</section>
+		</article>
+		{{/foreach}}
+
+		{{pagination}}
+	</section>
+
+	{{> footer}}
+</main>
