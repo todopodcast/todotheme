@@ -1,4 +1,65 @@
-.container {
+a {
+	color: #5897CB }
+
+#container {
 	margin: 0 auto;
+	font-size: 16px;
 	width: 600px;
-}
+	box-shadow: 0 10px 40px #999;
+	position: relative;       
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	background: white }
+	
+	#container:before, #container:after {
+		content: "";
+	    position: absolute; 
+	    z-index: -1;
+    	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    	top: 10px;
+	    bottom: 10px;
+	    left: 0;
+	    right: 0;
+    	border-radius: 100px / 10px } 
+		
+	#container:after {
+	right: 10px; 
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg); 
+       -moz-transform: skew(8deg) rotate(3deg);     
+        -ms-transform: skew(8deg) rotate(3deg);     
+         -o-transform: skew(8deg) rotate(3deg); 
+            transform: skew(8deg) rotate(3deg) }
+
+.header {
+	padding: 1em;
+	background: #393939; 
+	color: #8A8788;
+	font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace }
+	.header .blog-title {
+		font-size: 1em;
+		display: inline }
+
+	.header .menu {
+		display: inline }
+
+.post-header {
+	padding: 1em;
+	background: #eee }
+
+	.post-meta {
+		color: #ABB4B9 }
+
+	.post-title {
+		margin: 0;
+		font-size: 1em; }
+
+.post-excerpt, .post-content, .post-comments {
+	padding: 1em }
+
+	.post-excerpt p, .post-content p {
+		margin: 0;
+	}
+
+	.post-excerpt p + p, .post-content p + p {
+		margin-top: 1em;
+	}

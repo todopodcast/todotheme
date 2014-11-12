@@ -16,11 +16,18 @@ module.exports = function (grunt) {
                 ],
                 dest: 'assets/css/main.min.css'
             }
-        }
+        },
+        watch: {
+            scripts: {
+                files: ['assets/css/style.css'],
+                tasks: ['default']
+            },
+        },
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', ['cssmin', 'concat']);
 }

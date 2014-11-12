@@ -1,6 +1,14 @@
 <header class="header" role="banner" {{#if @blog.cover}}style="background-image: url({{@blog.cover}});"{{/if}}>
-	<h1 class="blog-title">
-		<a href="{{@blog.url}}">{{@blog.title}}</a>
-	</h1>
-	<div class="blog-description">{{@blog.description}}</div>
+	
+	<span class="comment">// </span>
+	<h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>: 
+
+	{{> navigation}}
+	
+	<div class="blog-description">
+		<span class="comment">// 
+			{{@blog.description}}
+		</span>
+	</div>
+
 </header>
