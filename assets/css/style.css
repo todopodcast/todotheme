@@ -1,3 +1,6 @@
+html, body {
+	height: 100% }
+
 a {
 	color: #5897CB }
 
@@ -5,36 +8,22 @@ a {
 	margin: 0 auto;
 	font-size: 16px;
 	width: 600px;
-	box-shadow: 0 10px 40px #999;
-	position: relative;       
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	height: 100%;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	position: relative;
 	background: white }
-	
-	#container:before, #container:after {
-		content: "";
-	    position: absolute; 
-	    z-index: -1;
-    	box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    	top: 10px;
-	    bottom: 10px;
-	    left: 0;
-	    right: 0;
-    	border-radius: 100px / 10px } 
-		
-	#container:after {
-	right: 10px; 
-    left: auto;
-    -webkit-transform: skew(8deg) rotate(3deg); 
-       -moz-transform: skew(8deg) rotate(3deg);     
-        -ms-transform: skew(8deg) rotate(3deg);     
-         -o-transform: skew(8deg) rotate(3deg); 
-            transform: skew(8deg) rotate(3deg) }
 
 .header {
 	padding: 1em;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin-left: -1px;
+	margin-right: -1px;
 	background: #393939; 
 	color: #8A8788;
 	font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace }
+
 	.header .blog-title {
 		font-size: 1em;
 		display: inline }
@@ -42,12 +31,25 @@ a {
 	.header .menu {
 		display: inline }
 
+		.header .menu .string, .header .menu .string a {
+			color: #D58B48 }
+
 .post-header {
 	padding: 1em;
 	background: #eee }
 
 	.post-meta {
+		float: right;
 		color: #ABB4B9 }
+
+		.post-tags {
+			margin-right: 1em }
+			
+			.post-tags a {
+				color: #ABB4B9 }
+
+			.post-tags a:before {
+				content: "#" }
 
 	.post-title {
 		margin: 0;
@@ -63,3 +65,7 @@ a {
 	.post-excerpt p + p, .post-content p + p {
 		margin-top: 1em;
 	}
+
+img[alt="Photo-like-in-passport"] {
+	float: right;
+	border: 1px solid #666 }

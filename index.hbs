@@ -6,15 +6,11 @@
 	<section class="post-list">
 		{{#foreach posts}}
 		<article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}}">
-			<header class="post-header">        		
+			<header class="post-header">
     			<div class="post-meta">
+    				<span class="post-tags">{{tags}}</span>
+
         			<time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date published_at format="YYYY-MM-DD"}}</time>
-        			{{#if tags}}
-    				<span class="delimiter">&#8226;</span> 
-		        	{{#tags}}
-		            <span itemprop="keywords">{{name}}</span>{{#unless @last}}, {{/unless}}
-		          	{{/tags}}			        
-			      	{{/if}}			      	
         		</div>
         		<h2 itemprop="name" class="post-title">
     				<a href="{{url}}" itemprop="url">{{{title}}}</a>

@@ -3,16 +3,11 @@
 <main id="container" role="main">
 	{{> header}}
 
-	{{> navigation}}
-
 	<section class="post-full">
 		{{#post}}
 		<article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}} post">
 			<header class="post-header">        		
-    			<h2 itemprop="name headline" class="post-title">
-    				<a href="{{url}}" itemprop="url">{{{title}}}</a>
-    			</h2>
-        		<hr>
+    			<h2 itemprop="name headline" class="post-title">{{{title}}}</h2>
     		</header>
     		<section itemprop="articleBody" class="post-content">
     			{{content}}
