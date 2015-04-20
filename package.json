@@ -1,15 +1,16 @@
 {
-	"name": "ToDo",
-	"version": "0.0.1",
-	"description": "Minimal theme for Ghost",
-	"author": {
-		"name": "Chukhlomin Konstantin",
-		"email": "chuhlomin@gmail.com"
-	},
-	"devDependencies": {
-		"grunt": "~0.4.2",
-		"grunt-contrib-concat": "~0.3.0",
-		"grunt-contrib-cssmin": "~0.10.0",
-		"grunt-contrib-watch": "~0.6.1"
-	}
+  "name": "ToDo",
+  "version": "0.0.1",
+  "description": "Minimal theme for Ghost",
+  "author": {
+    "name": "Chukhlomin Konstantin",
+    "email": "chuhlomin@gmail.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-copy": "^0.7.0"
+  }
 }

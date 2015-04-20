@@ -1,20 +1,20 @@
 {{!< default}}
 
+{{> header}}
 <main id="container" role="main">
-	{{> header}}
 
-	<section class="post-full">
-		{{#post}}
-		<article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}} post">
-			<header class="post-header">        		
-    			<h2 itemprop="name headline" class="post-title">{{{title}}}</h2>
-    		</header>
-    		<section itemprop="articleBody" class="post-content clearfix">
-    			{{content}}
-    		</section>
-		</article>
-		{{/post}}
-	</section>
+    <section class="post-full">
+        {{#post}}
+            <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}} post">
+                <header class="post-header">
+                    <h2 itemprop="name headline" class="post-title">{{{title}}}</h2>
+                </header>
+                <section itemprop="articleBody" class="post-content clearfix">
+                    {{content}}
+                </section>
+            </article>
+        {{/post}}
+    </section>
 
-	{{> footer}}
+    {{> footer}}
 </main>

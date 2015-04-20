@@ -1,7 +1,8 @@
 {
-	"name": "ToDo",
-	"version": "0.1",
-	"dependencies": {
-		"html5-boilerplate": "latest"
-	}
+  "name": "ToDo",
+  "version": "0.1",
+  "dependencies": {
+    "html5-boilerplate": "latest",
+    "mediaelement": "latest"
+  }
 }

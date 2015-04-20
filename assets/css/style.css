@@ -1,77 +1,184 @@
 html, body {
-  height: 100% }
+    height: 100%
+}
 
 a {
-	color: #5897CB }
+    color: #5897CB
+}
+
+.logo-1400 {
+    background: url('/assets/images/logo_1400.png'); /* just for buster */
+}
+
+.logo-2048 {
+    background: url('/assets/images/logo_2048.png'); /* just for buster */
+}
 
 #container {
-	margin: 0 auto;
-	font-size: 16px;
-	width: 600px;
-	
-	min-height: 100%; /* min. height for modern browser */
-    height:auto !important; /* important rule for modern Browser */
-    height:100%; /* min. height for IE */
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 600px;
+
+    min-height: 100%; /* min. height for modern browser */
+    height: auto !important; /* important rule for modern Browser */
+    height: 100%; /* min. height for IE */
     overflow: hidden !important; /* FF scroll-bar */
 
-	min-height: 100%;
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	position: relative;
-	background: white }
+    min-height: 100%;
+    position: relative;
+    background: white;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.header .container {
+    margin: 0 auto;
+    max-width: 570px;
+    padding: 1em;
+}
 
 .header {
-	padding: 1em;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	margin-left: -1px;
-	margin-right: -1px;
-	background: #393939; 
-	color: #8A8788;
-	font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace }
+    padding: 0;
+    border: 1px solid black;
+    background: #393939;
+    color: #8A8788;
+    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace
+}
 
-	.header .blog-title {
-		font-size: 1em;
-		display: inline }
+.header .blog-title {
+    font-size: 1em;
+    display: inline
+}
 
-	.header .menu {
-		display: inline }
+.header .menu {
+    display: inline
+}
 
-		.header .menu .string, .header .menu .string a {
-			color: #D58B48 }
+.header .menu .string, .header .menu .string a {
+    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace;
+    color: #D58B48
+}
+
+article + article {
+    border-top: 1px solid #eee;
+}
 
 .post-header {
-	padding: 1em;
-	background: #eee }
+    padding: 1em;
+}
 
-	.post-meta {
-		float: right;
-		color: #ABB4B9 }
+.post-meta {
+    float: right;
+    color: #ABB4B9;
+    font-size: 0.85em;
+}
 
-		.post-tags {
-			margin-right: 1em }
+.post-meta time {
+    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace;
+}
 
-			.post-tags a {
-				color: #ABB4B9 }
+.post-tags {
+    margin-right: 1em
+}
 
-			.post-tags a:before {
-				content: "#" }
+.post-tags a {
+    color: #ABB4B9
+}
 
-	.post-title {
-		margin: 0;
-		font-size: 1em; }
+.post-tags a:before {
+    content: "#"
+}
+
+.post-title {
+    margin: 0;
+    font-size: 1em;
+}
 
 .post-excerpt, .post-content, .post-comments {
-	padding: 1em }
+    padding: 1em
+}
 
-	.post-excerpt p, .post-content p {
-		margin: 0;
-	}
+.post-comments {
+    border-top: 1px solid #EEE;
+}
 
-	.post-excerpt p + p, .post-content p + p {
-		margin-top: 1em;
-	}
+.post-excerpt p, .post-content p {
+    margin: 0;
+}
+
+.post-excerpt p code,
+.post-content p code {
+    font-size: 0.7em;
+    white-space: pre-wrap;
+    background: #f1f0ea;
+    border-radius: 2px;
+    padding: 0.2em 0.4em;
+    vertical-align: middle;
+}
+
+.post-excerpt p + p,
+.post-content p + p {
+    margin-top: 1em;
+}
+
+.post-excerpt ul,
+.post-content ul {
+    margin: 1em 0 0;
+}
+
+.post-excerpt ul ul,
+.post-content ul ul {
+    margin: 0 0 0.33em;
+}
 
 img[alt="Photo-like-in-passport"] {
-	float: right;
-	border: 1px solid #666 }
+    float: right;
+    border: 1px solid #666
+}
+
+footer.footer {
+    margin: 1em 0;
+    text-align: center;
+}
+
+footer a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 0.85em;
+    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace;
+}
+
+.mejs-container {
+    background: #393939;
+    margin-bottom: 0.66em;
+}
+
+.mejs-container .mejs-controls {
+    background: none;
+}
+
+.mejs-container .mejs-controls .mejs-time {
+    padding-top: 11px;
+    color: #8A8788;
+    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: #555;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    background: white;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total {
+    background: none;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+    background: #555;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background: white;
+}

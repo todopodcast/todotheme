@@ -1,29 +1,36 @@
 {{!< default}}
 
+{{> header}}
 <main id="container" role="main">
-	{{> header}}
 
-	<section class="post-list">
-		{{#foreach posts}}
-		<article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}}">
-			<header class="post-header">
-    			<div class="post-meta">
-    				<span class="post-tags">{{tags}}</span>
+    <section class="post-list">
+        {{#foreach posts}}
+            <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="{{post_class}}">
+                <header class="post-header">
+                    <div class="post-meta">
 
-        			<time datetime="{{date format='YYYY-MM-DD'}}" itemprop="datePublished">{{date published_at format="YYYY-MM-DD"}}</time>
-        		</div>
-        		<h2 itemprop="name" class="post-title">
-    				<a href="{{url}}" itemprop="url">{{{title}}}</a>
-    			</h2>
-    		</header>
-    		<section itemprop="description" class="post-excerpt">
-    			{{content}}
-    		</section>
-		</article>
-		{{/foreach}}
+                        <!--<span class="post-tags">{{tags}}</span>-->
 
-		{{pagination}}
-	</section>
+                        <time datetime="{{date format='YYYY-MM-DD'}}"
+                              itemprop="datePublished">{{date published_at format="YYYY-MM-DD"}}
+                        </time>
+                    </div>
+                    <h2 itemprop="name" class="post-title">
+                        <a href="{{url}}" itemprop="url">{{{title}}}</a>
+                    </h2>
+                </header>
+                {{#if featured}}
+                <section itemprop="description" class="post-excerpt">
+                    {{content}}
 
-	{{> footer}}
+                    <a class="link-post-comments" href="{{url}}#disqus_thread">Комментировать</a>
+                </section>
+                {{/if}}
+            </article>
+        {{/foreach}}
+
+        {{pagination}}
+    </section>
+
+    {{> footer}}
 </main>
