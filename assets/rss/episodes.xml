@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>todo</title>
+        <link>http://todopodcast.github.io</link>
+        <description>Подкаст для начинающих разработчиков. Выходит примерно раз в месяц. Выпуски не дольше часа.</description>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>ru</language>
+        <pubDate>Thu, 20 Nov 2014 10:26:03 +0300</pubDate>
+        <lastBuildDate>Mon, 27 Apr 2015 22:50:00 +0300</lastBuildDate>
+        <image>
+            <url>http://todopodcast.github.io/assets/images/logo_1400.png</url>
+            <title>todo podcast</title>
+            <link>http://todopodcast.github.io</link>
+        </image>
+        <itunes:image href="http://todopodcast.github.io/assets/images/logo_1400.png"/>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:block>no</itunes:block>
+        <itunes:author>Konstantin Chukhlomin, Stas Ivanov, Evgeny Zinder</itunes:author>
+        <itunes:category text="Technology">
+            <itunes:category text="Software How-To"/>
+        </itunes:category>
+        <item>
+            <title>1. Пилотный выпуск</title>
+            <link>http://todopodcast.github.io/2014/11/18/pilot/</link>
+            <guid isPermaLink="false">4BA46B90-0F1B-4D47-98A7-537B7161D1A1</guid>
+            <pubDate>Thu, 20 Nov 2014 10:26:02 +0300</pubDate>
+            <enclosure url="http://s3-eu-west-1.amazonaws.com/todopodcast/todo_podcast_1.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>25:38</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>
+                <![CDATA[<ul><li>02:06 Представление Стаса</li>
+<li>10:25 Представление Константина</li>
+<li>20:42 Краткий обзор вакансий</li>
+<li>24:59 Анонс</li></ul>]]>
+            </description>
+        </item>
+        <item>
+            <title>2. Game/Mobile/Web-разработка</title>
+            <link>http://todopodcast.github.io/2014/12/10/game-mobile-web/</link>
+            <guid isPermaLink="false">7A03832A-0531-4D07-9A20-AAF84C0D6A83</guid>
+            <pubDate>Thu, 10 Dec 2014 22:20:02 +0300</pubDate>
+            <enclosure url="https://s3-eu-west-1.amazonaws.com/todopodcast/todo_podcast_2.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>48:43</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>
+                <![CDATA[<ul><li>00:40 Разработка игр</li>
+<li>01:15 – <a href="http://www.blitzbasic.com/">Blitz 3D</a></li>
+<li>02:00 – <a href="http://unity3d.com/ru">Unity</a> (<a href="http://www.monumentvalleygame.com/">Monument Valley</a>, <a href="http://www.fireproofgames.com/the-room">The Room</a>, <a href="http://teslagrad.com/">Teslagrad</a>)</li>
+<li>07:30 – Спрайты / анимация</li>
+<li>11:00 – Про тренинг о коллаборации</li>
+<li>12:10 – Игры под Web</li>
+<li>12:44 Разработка мобильный приложений</li>
+<li>13:15 – Android, <a href="https://developer.android.com/sdk/index.html">Android Studio</a>, <a href="https://www.jetbrains.com/">JetBrains</a></li>
+<li>14:15 – iOs, Objective-C, <a href="https://developer.apple.com/swift/">Swift</a>, <a href="https://developer.apple.com/xcode/">Xcode</a></li>
+<li>18:20 Разработка под Web</li>
+<li>18:30 – PHP</li>
+<li>23:30 – Javascript</li>
+<li>25:25 – HTML / Верстка</li>
+<li>28:30 – ...</li>
+<li>39:30 – Backend</li>
+<li>44:20 Web & Game</li>
+<li>46:25 ВКонтакте</li>
+</ul>
+<p>Также упоминалось:</p>
+<ul>
+<li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+<li><a href="http://bohemiancoding.com/sketch/">Sketch</a></li>
+<li><a href="http://kineticjs.com/">KineticJS</a></li>
+<li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+<li><a href="http://fontello.com/">Fontello</a></li>
+<li><a href="http://nginx.org/">nginx</a></li>
+<li><a href="https://www.docker.com/">Docker</a></li>
+<li>Книга «Разработка высоконагруженных систем» (По материалам конференции HighLoad++ 2010-2011</li>
+</ul>
+<p>Извините за сбивчивый рассказ, но мы стараемся. Оставляйте ваши комментарии в iTunes и на <a href="http://todopodcast.github.io">сайте</a></p>]]>
+            </description>
+        </item>
+        <item>
+            <title>3. Команда</title>
+            <link>http://todopodcast.github.io/2015/02/24/team/</link>
+            <guid isPermaLink="false">BC8D6EF2-E990-4809-A12E-CE1DD61022BE</guid>
+            <pubDate>Thu, 24 Feb 2015 23:40:02 -0500</pubDate>
+            <enclosure url="https://s3-eu-west-1.amazonaws.com/todopodcast/todo_podcast_3.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>26:45</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>
+                <![CDATA[<ul><li>00:55 Наши новости: повышение</li>
+<li>07:20 Рубль</li>
+<li>09:40 Доклад Пацан накодил — пацан протестил!</li>
+<li>12:30 Тема выпуска</li>
+<li>12:50 Одиночки</li>
+<li>13:40 Парное программирование</li>
+<li>16:30 Как поставлен процесс разработки у нас</li>
+<li>18:30 Состав команды</li>
+<li>21:00 Конфликты в команде</li>
+<li>21:40 Менеджеры мешают?</li>
+<li>23:00 Переход в менеджеры</li>
+</ul>
+<p>Также упоминалось:</p>
+<ul>
+<li><a href="https://ru.wikipedia.org/wiki/Разработка_через_тестирование">TDD</a></li>
+<li><a href="http://c2.com/cgi/wiki?PairProgrammingPingPongPattern">Ping-pong</a>, <a href="https://vimeo.com/7139653">живая демонстрация</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Экстремальное_программирование">XP</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Гибкая_методология_разработки">Agile</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Scrum">Scrum</a></li>
+<li><a href="http://talks.rosalab.com/Медиатека">Каталог докладов и семинаров</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Рефакторинг">Рефакторинг</a></li>
+<li><a href="https://ru.wikipedia.org/wiki/Непрерывная_интеграция">Continuous Integration</a></li>
+<li><a href="http://martinfowler.com/bliki/ContinuousDelivery.html">Continuous Delivery</a></li>
+</ul>
+]]>
+            </description>
+        </item>
+        <item>
+            <title>4. Начинающим</title>
+            <link>http://todopodcast.github.io/2015/04/06/for-beginners/</link>
+            <guid isPermaLink="false">F2C17579-D94E-4D55-9752-B84546D4670F</guid>
+            <pubDate>Mon, 6 Apr 2015 23:54:00 +0300</pubDate>
+            <enclosure url="https://s3-eu-west-1.amazonaws.com/todopodcast/todo_podcast_4.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>25:05</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>
+                <![CDATA[<ul><li>00:30 Представление Жени, как все начиналось</li>
+<li>02:50 Что почитать</li>
+<li>05:40 Онлайн курсы, сайты</li>
+<li>06:50 Что слушать?</li>
+<li>09:05 Куда идти</li>
+<li>10:00 Как попасть в веб-студию</li>
+<li>17:06 Статья «<a href="http://prog-school.ru/2010/02/7-tipichnyx-oshibok-neopytnyx-programmis">7 типичных ошибок неопытных программистов</a>»</li>
+</ul>
+<p>Также упоминалось:</p>
+<ul>
+<li>Книги
+    <ul>
+        <li><a href="http://www.books.ru/books/php-5-604678/">PHP 5</a></li>
+        <li><a href="http://market.yandex.ru/product/1429912/?ncrnd=4798">Приемы объекто-оринтированного проектирования</a></li>
+        <li><a href="http://shop.oreilly.com/category/series/head-first.do">Head First</a></li>
+    </ul>
+</li>
+<li>Курсы
+    <ul>
+        <li><a href="https://www.coursera.org/">Courcera</a>, <a href="https://www.coursera.org/course/interactivepython1">Введение в интерактивную разработку на Python</a></li>
+        <li><a href="https://www.udemy.com/">Udemi.com</a></li>
+        <li><a href="https://www.codeschool.com/">CodeSchool</a></li>
+        <li><a href="http://www.codecademy.com/">Codeacademy</a></li>
+    </ul>
+</li>
+<li>Сайты
+    <ul>
+        <li><a href="http://www.phptherightway.com/">PHP. The Right Way</a>, <a href="http://getjump.github.io/ru-php-the-right-way/">русская версия</a></li>
+        <li><a href="http://www.yiiframework.com/">Yii</a>, <a href="http://yiicookbook.org/">Yii Application Development Cookbook</a></li>
+        <li><a href="http://symfony.com/">Synfony</a>, <a href="http://symfony.com/doc/current/cookbook/index.html">Cookbook</a></li>
+    </ul>
+</li>
+<li>Подкасты
+    <ul>
+        <li><a href="http://www.radio-t.com/">Radio-T</a></li>
+        <li><a href="http://www.healthyhacker.com/">Heathy Hacker</a></li>
+    </ul>
+</li>
+</ul>
+]]>
+            </description>
+        </item>
+        <item>
+            <title>5. Собеседования</title>
+            <link>http://todopodcast.github.io/2015/04/27/interview/</link>
+            <guid isPermaLink="false">B72ED8D9-6A31-4CED-9FA5-18E702F55BD8</guid>
+            <pubDate>Mon, 27 Apr 2015 22:50:00 +0300</pubDate>
+            <enclosure url="https://s3-eu-west-1.amazonaws.com/todopodcast/todo_podcast_5.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>49:22</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>
+                <![CDATA[<ul><li>00:41 Опыт Стаса</li>
+<li>01:23 Какие бывают собеседования</li>
+<li>01:50 Опыт Жени</li>
+<li>03:30 Общий сценарий</li>
+<li>04:29 Стадии собеседований</li>
+<li>17:14 О чем могут спросить</li>
+<li>43:05 Почему уходят с работы</li>
+</ul>
+<p>Также упоминалось: <a href="http://habrahabr.ru/company/htmlacademy/blog/254825/">Что на самом деле происходит, когда пользователь вбивает в браузер адрес google.com</a>.</p>
+]]>
+            </description>
+        </item>
+        <item>
+            <title>6. Фриланс</title>
+            <link>http://todopodcast.github.io/2015/07/06/freelance/</link>
+            <guid isPermaLink="false">B72ED8D9-6A31-4CED-9FA5-18E702F55BD8</guid>
+            <pubDate>Mon, 6 Jul 2015 23:30:00 -0500</pubDate>
+            <enclosure url="https://s3-eu-west-1.amazonaws.com/todopodcast/todo_podcast_6.mp3" length="0" type="audio/mpeg"/>
+            <itunes:duration>33:20</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>
+                <![CDATA[<ul><li>01:00 Биржи: <a href="http://fl.ru">fl.ru</a>, <a href="https://www.upwork.com">upwork.com</a> (oDesk), <a href="http://freelansim.ru">freelansim.ru</a>, <a href="http://www.truelancer.com">truelancer.com</a>, <a href="http://www.weblancer.net">weblancer.net</a>, <a href="https://freelance.ru">freelance.ru</a></li>
+<li>02:00 Опыт Жени</li>
+<li>08:00 Опыт Кости</li>
+<li>09:40 Резкое изменение требований</li>
+<li>10:50 Неоплаченная работа</li>
+<li>11:50 Пропавший исполнитель</li>
+<li>13:10 Посредники</li>
+<li>16:35 Уход из фриланса</li>
+<li>19:10 Западный/российский фриланс</li>
+<li>21:00 Networking</li>
+<li>22:00 Еще одна история из жизни</li>
+<li>28:30 Предоплата</li>
+<li>31:40 Анонс</li>
+</ul>
+<p>Также упоминался: <a href="http://tema.livejournal.com/337226.html">шаблон договора на создание сайта</a>.</p>
+<p>Уже работали фрилансером? Напишите нам о своём опыте!</p>
+<p><strong>К следующему выпуску:</strong> мы готовимся к интервью с нашим знакомым из The New York Times, напишите ваши вопросы в комментариях к выпуску здесь или в нашем паблике <a href="http://vk.com/todopodcast">ВКонтакте</a>.</p>
+]]>
+            </description>
+        </item>
+    </channel>
+</rss>

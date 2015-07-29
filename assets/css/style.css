@@ -16,33 +16,41 @@ a {
 
 #container {
     margin: 0 auto;
+    padding-bottom: 2em;
     font-size: 16px;
     max-width: 600px;
-
-    min-height: 100%; /* min. height for modern browser */
-    height: auto !important; /* important rule for modern Browser */
-    height: 100%; /* min. height for IE */
-    overflow: hidden !important; /* FF scroll-bar */
-
-    min-height: 100%;
     position: relative;
     background: white;
+}
+
+#container .post-list,
+#container .post-full,
+#container .footer {
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee
+}
+
+#container .post-list {
+    padding-bottom: 1em;
 }
 
 .header .container {
     margin: 0 auto;
     max-width: 570px;
     padding: 1em;
+    background: #393939;
 }
 
 .header {
     padding: 0;
     border: 1px solid black;
-    background: #393939;
+    background: #3e3e3e;
     color: #8A8788;
-    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace
+    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace;
+    box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10;
 }
 
 .header .blog-title {
@@ -137,15 +145,13 @@ img[alt="Photo-like-in-passport"] {
 }
 
 footer.footer {
-    margin: 1em 0;
+    margin: 0;
+    padding: 1em 0;
     text-align: center;
-}
-
-footer a {
-    color: #eee;
-    text-decoration: none;
-    font-size: 0.85em;
-    font-family: "Input Mono", "Source Code Pro", "PT Mono", monospace;
+    background: #f9f9f9;
+    color: #ccc;
+    font-weight: bolder;
+    text-shadow: 0 1px 0 #fff
 }
 
 .mejs-container {
